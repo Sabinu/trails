@@ -1,37 +1,76 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>trails</title>
-    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
-    <link href="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css" rel="stylesheet">
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js"></script>
     <style>
-        body { margin: 0; padding: 0; }
-        #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
+    <button
+      id="styleButton"
+      class="absolute right-6 bottom-10 z-10 rounded bg-white py-1 px-2 font-mono font-bold text-black hover:bg-black hover:text-white"
+    >
+      FLIP
+    </button>
     <div id="map"></div>
     <script>
-        mapboxgl.accessToken = 'pk.eyJ1Ijoic2FiaW51IiwiYSI6ImNpcjdyamZsODAwMXFpam1nOXl3bzl1djAifQ.T2RVI8AZuDpO8WXCAO64zQ';
-        const map = new mapboxgl.Map({
-            container: 'map',
-            style: 'mapbox://styles/sabinu/clfawvhvb001h01mxhmgqmfq6',
-            center: [25.59483, 45.64096],
-            zoom: 14.23,
-            bearing: 164.8,
-            pitch: 48,
-        });
-        map.addControl(new mapboxgl.FullscreenControl());
-        map.addControl(new mapboxgl.NavigationControl());
-        map.addControl(new mapboxgl.ScaleControl());
-        map.addControl(new mapboxgl.GeolocateControl({
-            positionOptions: {
-                enableHighAccuracy: true
-            },
-            trackUserLocation: true
-        }));
+      mapboxgl.accessToken =
+        "pk.eyJ1Ijoic2FiaW51IiwiYSI6ImNpcjdyamZsODAwMXFpam1nOXl3bzl1djAifQ.T2RVI8AZuDpO8WXCAO64zQ";
+      const map = new mapboxgl.Map({
+        container: "map",
+        style: "mapbox://styles/sabinu/clfawvhvb001h01mxhmgqmfq6",
+        center: [25.59483, 45.64096],
+        zoom: 14.23,
+        bearing: 164.8,
+        pitch: 48,
+      });
+      map.addControl(new mapboxgl.FullscreenControl());
+      map.addControl(new mapboxgl.NavigationControl());
+      map.addControl(new mapboxgl.ScaleControl());
+      map.addControl(
+        new mapboxgl.GeolocateControl({
+          positionOptions: {
+            enableHighAccuracy: true,
+          },
+          trackUserLocation: true,
+        })
+      );
+
+      const styleButton = document.getElementById("styleButton");
+      const styles = [
+        "mapbox://styles/sabinu/clfawvhvb001h01mxhmgqmfq6",
+        "mapbox://styles/sabinu/clfnt683m003201t6r9mgu0aq",
+      ];
+      let currentStyle = 0;
+
+      styleButton.addEventListener("click", () => {
+        currentStyle = (currentStyle + 1) % styles.length;
+        map.setStyle(styles[currentStyle]);
+      });
     </script>
-</body>
+  </body>
 </html>
