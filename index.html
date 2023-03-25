@@ -14,20 +14,24 @@
 <body>
     <div id="map"></div>
     <script>
-        // TO MAKE THE MAP APPEAR YOU MUST
-        // ADD YOUR ACCESS TOKEN FROM
-        // https://account.mapbox.com
         mapboxgl.accessToken = 'pk.eyJ1Ijoic2FiaW51IiwiYSI6ImNpcjdyamZsODAwMXFpam1nOXl3bzl1djAifQ.T2RVI8AZuDpO8WXCAO64zQ';
         const map = new mapboxgl.Map({
-            container: 'map', // container ID
-            // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
-            style: 'mapbox://styles/sabinu/clfawvhvb001h01mxhmgqmfq6', // style URL
-            center: [25.59483, 45.64096], // starting position [lng, lat]
-            zoom: 14.23, // starting zoom
-            bearing: 164.8, // starting rotation
-            pitch: 48 // starting inclination
+            container: 'map',
+            style: 'mapbox://styles/sabinu/clfawvhvb001h01mxhmgqmfq6',
+            center: [25.59483, 45.64096],
+            zoom: 14.23,
+            bearing: 164.8,
+            pitch: 48,
         });
         map.addControl(new mapboxgl.FullscreenControl());
+        map.addControl(new mapboxgl.NavigationControl());
+        map.addControl(new mapboxgl.ScaleControl());
+        map.addControl(new mapboxgl.GeolocateControl({
+            positionOptions: {
+                enableHighAccuracy: true
+            },
+            trackUserLocation: true
+        }));
     </script>
 </body>
 </html>
