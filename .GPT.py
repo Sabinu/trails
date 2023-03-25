@@ -1,12 +1,26 @@
 import pandas as pd
-import requests
+import asyncio
+import aiohttp
 
 from bs4 import BeautifulSoup
 from icecream import ic
 
-df = pd.read_csv("mm_links.csv")
 
-results_df = pd.DataFrame()
+async def fetch_data(session, link):
+    async with session.get(link) as response:
+        if response.status == 200:
+            soup = BeautifulSoup(await response.text(), "html.parser")
+            return {"link": link, **parse_soup(soup)}
+        else:
+            print(f"Error: Failed to retrieve data from {link}")
+            return None
+
+
+async def scrape_batch(batch_links):
+    async with aiohttp.ClientSession() as session:
+        tasks = [fetch_data(session, link) for link in batch_links]
+        results = await asyncio.gather(*tasks)
+        return [result for result in results if result is not None]
 
 
 def parse_soup(soup):
@@ -51,20 +65,20 @@ def parse_soup(soup):
     }
 
 
-for link in df["link"][:10]:
-    response = requests.get(link)
+async def main(batch_size):
+    df = pd.read_csv("mm_links.csv")
+    links = df["link"][:10].tolist()
+    results = []
 
-    if response.status_code == 200:
-        soup = BeautifulSoup(response.content, "html.parser")
+    while links:
+        batch = links[:batch_size]
+        links = links[batch_size:]
+        batch_results = await scrape_batch(batch)
+        results.extend(batch_results)
 
-        result = {
-            "link": link,
-            **parse_soup(soup),
-        }
+    results_df = pd.DataFrame(results)
+    results_df.to_csv("mm_details.csv", index=False)
 
-        results_df = pd.concat([results_df, pd.DataFrame([result])])
 
-    else:
-        print(f"Error: Failed to retrieve data from {link}")
-
-results_df.to_csv("mm_details.csv", index=False)
+if __name__ == "__main__":
+    asyncio.run(main(batch_size=5))
