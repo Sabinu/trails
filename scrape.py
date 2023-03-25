@@ -1,17 +1,52 @@
+import json
+
+import geojson
 import pandas as pd
-import requests
+import asyncio
+import aiohttp
 
 from bs4 import BeautifulSoup
 from icecream import ic
 
-df = pd.read_csv("mm_links.csv")
 
-results_df = pd.DataFrame()
+async def fetch_data(session, link):
+    async with session.get(link) as response:
+        if response.status == 200:
+            soup = BeautifulSoup(await response.text(), "html.parser")
+            trail_id = link.split("/")[-1]
+
+            return {"link": link, "id": trail_id, **parse_soup(soup)}
+        else:
+            print(f"Error: Failed to retrieve data from {link}")
+            return None
+
+
+async def fetch_trail(session, link):
+    async with session.get(link) as response:
+        if response.status == 200:
+            trail = json.loads(await response.text())[0]
+            trail = [[x, y] for (y, x) in trail]
+            return {"trail": trail}
+        else:
+            print(f"Error: Failed to retrieve data from {link}")
+            return None
+
+
+async def scrape_batch(batch_links):
+    async with aiohttp.ClientSession() as session:
+        tasks = [fetch_data(session, link[0]) for link in batch_links]
+        props = await asyncio.gather(*tasks)
+
+        tasks = [fetch_trail(session, link[1]) for link in batch_links]
+        trails = await asyncio.gather(*tasks)
+
+        results = zip(props, trails)
+
+        return [{**r[0], **r[1]} for r in results if r is not None]
 
 
 def parse_soup(soup):
     title = soup.title.string.strip()
-    shortlink = soup.find("link", rel="shortlink")["href"].strip()
 
     header = soup.find("h1", class_="page-header")
     header_text = header.text.strip() if header else None
@@ -24,9 +59,10 @@ def parse_soup(soup):
     description_text = description_div.text.strip() if description_div else None
 
     facts_div = soup.find("div", class_="view-mode-facts")
+    facts_dict = {}
+
     if facts_div:
         group_divs = list(facts_div.find_all("div", class_="field-group-html-element"))
-        facts_dict = {}
 
         for div in group_divs:
             field_item = div.find("div", class_="field-item")
@@ -37,12 +73,9 @@ def parse_soup(soup):
 
                 value = field_item.text.strip()
                 facts_dict[key] = value
-    else:
-        facts_dict = None
 
     return {
         "title": title,
-        "short": shortlink,
         "header": header_text,
         "header_image": header_img,
         "subheader": subheader_text,
@@ -51,22 +84,43 @@ def parse_soup(soup):
     }
 
 
-for i, link in enumerate(df["link"]):
-    print(i, link)
+def list_to_geojson(lst):
+    features = []
+    for item in lst:
+        geometry = geojson.LineString(item["trail"])
 
-    response = requests.get(link)
+        properties = item
+        del properties["trail"]
 
-    if response.status_code == 200:
-        soup = BeautifulSoup(response.content, "html.parser")
+        feature = geojson.Feature(geometry=geometry, properties=properties)
+        features.append(feature)
 
-        result = {
-            "link": link,
-            **parse_soup(soup),
-        }
+    return geojson.FeatureCollection(features)
 
-        results_df = pd.concat([results_df, pd.DataFrame([result])])
 
-    else:
-        print(f"Error: Failed to retrieve data from {link}")
+async def main(batch_size):
+    df = pd.read_csv("mn_links_02.csv")
 
-results_df.to_csv("mm_details.csv", index=False)
+    # links = list(enumerate(zip(df["link"][:10].tolist(), df["trail"])))
+    links = list(enumerate(zip(df["link"].tolist(), df["trail"].tolist())))
+    results = []
+
+    while links:
+        ic(links[:batch_size])
+        batch = [l[1] for l in links[:batch_size]]
+        links = links[batch_size:]
+        batch_results = await scrape_batch(batch)
+        results.extend(batch_results)
+
+    results_df = pd.DataFrame(results)
+    results_df = results_df.drop("trail", axis=1)
+    results_df.to_csv("mn_details.csv", index=False)
+
+    with open("mn_details.geojson", "w", encoding="utf-8") as fh:
+        results = list_to_geojson(results)
+
+        geojson.dump(results, fh, indent=2, ensure_ascii=False)
+
+
+if __name__ == "__main__":
+    asyncio.run(main(batch_size=5))
