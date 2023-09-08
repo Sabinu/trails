@@ -1,0 +1,820 @@
+cod,denumire,regiune,subregiune,grupa unit 5,unit 5 grup 6,unit 6 grup 7,unit ord 7
+0,Lunca Oltului,XIV,A,,3,,3.0.5
+1,Câmpia Caracalului,XIV,A,,3,3.2,
+2,Lunca Bratesului,XIV,E,,4,4.2,4.2.3
+3,Balta Brailei,XIV,F,b,2,,
+4,Câmpia Iminogului,XIV,B,,2,2.1,
+5,Câmpia Urluiului,XIV,B,,2,2.2,
+6,Câmpia Burdea,XIV,B,,3,3.1,
+7,Câmpia Gavanu,XIV,B,,3,3.2,
+8,Câmpia Burnas,XIV,B,,4,,
+9,Lunca Argesului,XIV,C,,1,1.1,1.1.3
+10,Câmpia Cîlnistei,XIV,B,,3,3.3,
+11,Lunca Argesului,XI,,,,,
+12,Piemontul (Pod.)  Cotmenei,XI,,,6,,
+13,Culoarul Oltului,XI,,,,0.7,
+14,Culoarul Jiului,XI,,,,0.4,
+15,Podisul (Dl.)  Beicai,XI,,,5,5.4,
+16,Podisul Tesluiului,XI,,,5,5.3,
+17,Dealurile Cernei,XI,,,5,5.2,
+18,Lunca Arges - Sabar,XIV,D,,4,,4.0.6
+19,Câmpia Cîlnaului,XIV,D,,4,4.4,
+20,Cîmpia Cotroceni (Ciorogîrlei),XIV,D,,4,4.1,4.1.1
+21,Cîmpul Colentinei,XIV,D,,4,4.1,4.1.2
+22,Cîmpul Otopeni (Otopeni - Cernica),XIV,D,,4,4.1,4.1.3
+23,Cîmpia Movilitei,XIV,D,,4,4.3,
+24,Cîmpia Târgovistei,XIV,D,,1,1.1,
+25,Cîmpul Maia,XIV,D,,4,,4.0.5
+26,Cîmpia Snagovului,XIV,D,,4,4.2,
+27,Cîmpia Ilfovului,XIV,D,,4,4.1,4.1.4
+28,Podisul Lipovei (Piem. Lipovei),VIII,,a,1,,
+29,Culmea Mare,IV,,b,3,3.1,
+30,Podisul Vînatori,VI,C,,2,2.3,
+31,MAsivul Vladeasa,V,,a,1,1.2,
+32,Dealurile Amaradiei,XI,,,5,5.1,
+33,Podisul  Racovei,XII,C,a,,0.3,
+34,Podisul Tatarusului,XII,A,,4,4.2,
+35,Podisul  Mitocului,XII,A,,1,1.1,
+36,Dealurile Holm - Dealu Mare,XII,A,,6,6.4,
+37,Colinele Ibanesei,XII,B,,1,1.1,1.1.2
+38,Colinele Miletinului,XII,B,,2,2.2,
+39,Culoarul Bârladului,XII,C,b,,,0.0.4
+40,Depresiunea Elanului,XII,C,c,,0.3,
+41,Colinele Balabanestiului,XII,C,d,,0.2,
+42,Depresiunea Husului,XII,C,a,,,0.0.7
+43,Lunca Argesului,XIV,,,,,
+44,Cîmpia Saratei,XIV,D,,3,3.3,
+45,Câmpia Pitestiului,XIV,B,,1,,
+46,Depresiunea Tismana - Stanesti,IX,A,a,1,1.4,
+47,Piemontul (Pod.) Cândesti,XI,,,9,,
+48,Gruiurile (Dl. )  Argesului,XI,,,8,,
+49,Culoarul Drobeta - Bala,XI,,,1,1.3,
+50,Gruiurile Jiului (Dl. Jiului),XI,,,,0.3,
+51,Dealul lui Bran,IX,A,a,1,1.3,
+52,Dealurile (Piem.) Cosustei,XI,,,1,1.1,
+53,Piemontul Balacitei,XI,,,2,,
+54,Câmpia Jianei,XIV,A,,1,,1.0.1
+55,Câmpia Punghinei,XIV,A,,1,,1.0.2
+56,Lunca Bistretului,XIV,F,a,,0.2,
+57,Câmpia Bailestiului,XIV,A,,2,2.1,
+58,Câmpul Salcutei,XIV,A,,2,2.2,2.2.1
+59,Câmpul Nedeii,XIV,A,,2,2.2,2.2.2
+60,Lunca Jiu - Jiet,XIV,A,,3,,3.0.4
+61,Câmpul Dabuleniului,XIV,A,,3,,3.0.3
+62,Câmpul  Leu - Rotunda,XIV,A,,3,3.1,
+63,Cîmpia Titului,XIV,D,,3,3.1,
+64,Cîmpia Gherghitei,XIV,D,,3,3.2,
+65,Glacisul VAlea Calugareasca,XIV,D,,,0.2,0.2.1
+66,Cîmpia Ploiestiului,XIV,D,,1,1.3,
+67,Cîmpia Cricovului,XIV,D,,1,1.2,
+68,Cîmpul Argovei,XIV,C,,1,1.1,1.1.2
+69,Câmpul Nana,XIV,C,,1,1.1,1.1.1
+70,Cîmpul Facaeniului,XIV,C,,1,1.3,1.3.5
+71,Cîmpul Hagieniului,XIV,C,,1,1.3,1.3.4
+72,Câmpul Calarasului,XIV,C,,1,1.3,1.3.1
+73,Cîmpul Stefan Voda,XIV,C,,1,1.3,1.3.2
+74,Cîmpul Ciulnitei,XIV,C,,1,1.3,1.3.3
+75,Cîmpul Copuzeanca,XIV,C,,1,1.2,1.2.1
+76,Câmpia Lehliului,XIV,C,,1,1.2,
+77,Lunca Ialomitei,XIV,C,,2,2.3,
+78,Cîmpul Mohreanu,XIV,C,,2,2.2,2.2.1
+79,Cîmpul Rosiori,XIV,C,,2,2.2,2.2.2
+80,Cîmpul Amara,XIV,C,,2,2.2,2.2.3
+81,Cîmpul Pogoanele,XIV,C,,2,2.1,2.1.2
+82,Câmpul Urziceniului,XIV,C,,2,2.1,2.1.1
+83,Lunca Poteiului,XIV,F,a,,0.3,
+84,Lunca Suhaei,XIV,F,a,,0.4,
+85,Lunca Pasarea,XIV,F,a,,0.5,
+86,Lunca Greaca,XIV,F,a,,0.6,
+87,Lunca Calarasului,XIV,F,a,,0.7,
+88,Podisul Cernavodei,XV,C,,1,1.1,
+89,Podisul Medgidiei,XV,C,,1,1.2,
+90,Podisul Cobadinului,XV,C,,3,,
+91,Podisul Oltinei,XV,C,,2,,
+92,Depresiunea  Horia,XV,B,,1,,1.0.2
+93,Podisul  Gîrliciului,XV,B,,,0.3,
+94,Podisul Istrei,XV,B,,,0.2,
+95,Podisul Casimncei,XV,B,,1,1.1,
+96,Dealul Camenei,XV,A,,7,,7.0.9
+97,Câmpia Ceamurliei (Pedimentul Ceamurliei),XV,A,,7,,7.0.11
+98,Dealurile Ciucurovei,XV,A,,7,,7.0.7
+99,Dealul Atmagea,XV,A,,7,,7.0.4
+100,Depresiunea  Dorobantu,XV,A,,7,,7.0.2
+101,Podisul  Slavelor,XV,A,,7,,7.0.5
+102,Podisul Visternei,XV,A,,7,,7.0.8
+103,Glacisul Babadagului,XV,A,,7,,7.0.10
+104,Dealul  Carierei,XV,A,,7,,7.0.3
+105,Muchia Cernei,XV,A,,7,,7.0.1
+106,Câmpia Nucarilor (Pedimentul Agighiol),XV,A,,4,4.5,
+107,Dealurile Uzum - Malcoci,XV,A,,4,4.1,
+108,Depresiunea  Nalbant,XV,A,,,0.3,
+109,Glacisul Macinului,XV,A,,,0.5,
+110,Depresiunea  Cerna,XV,A,,,0.5,0.5.2
+111,Muntii Macinului,XV,A,,1,,
+112,Depresiunea  Greci,XV,A,,,0.5,0.5.1
+113,Glacisul Somovevei,XV,A,,,0.6,0.6.2
+114,Podisul  Isaccei,XV,A,,2,,2.0.1
+115,Podisul Coslugea,XV,A,,2,,2.0.3
+116,Dealurile Trestenicului,XV,A,,2,,2.0.2
+117,Grindul Chituc,XVI,,b,,,0.0.6
+118,Lacul  Razelm,XVI,,b,1,,
+119,Grindul Lupilor,XVI,,b,,0.5,
+120,Grindul Chituc,XVI,,b,,,0.0.6
+121,Depresiunea Popina,XVI,,a,,,0.0.8
+122,Grindul Letea,XVI,,a,,0.7,
+123,Depresiunea Sulinei (Rosu - Puiu),XVI,,a,,0.12,
+124,Complexul Zatoanele,XVI,,a,,0.15,
+125,Grindurile Ivancea - Saraturile,XVI,,a,,0.14,
+126,Grindul Caraorman,XVI,,a,,0.11,
+127,Depresiunea Gorgova (Litcovul de Est),XVI,,a,,0.10,
+128,Depresiunea Dunavat,XVI,,a,,0.13,
+129,Depresiunea Rusca (Litcovul de Vest),XVI,,a,,,0.0.9
+130,Depresiunea Sireasa,XVI,,a,,,0.0.1
+131,Grindul Stipoc,XVI,,a,,,0.0.3
+132,Depresiunea Padina,XVI,,a,,,0.2
+133,Grindul Chilia,XVI,,a,,,0.0.5
+134,Depresiunea Matita,XVI,,a,,,0.0.6
+135,Depresiunea Sontea - Furtuna,XVI,,a,,0.4,
+136,Depresiunea Tazlaului,IX,C,a,1,1.1,
+137,Lunca Calmatuiului,XIV,C,,3,3.3,
+138,Cîmpul Viziru,XIV,C,,3,3.1,
+139,Cîmpul Gemenele,XIV,C,,3,3.2,3.2.1
+140,Cîmpul Mircea - Voda,XIV,C,,3,3.2,3.2.2
+141,Valea Ianca,XIV,C,,3,3.2,3.2.3
+142,Cîmpul Ianca,XIV,C,,3,3.2,3.2.4
+143,Conul Buzaului,XIV,E,,,0.2,0.2.2
+144,Lunca Calmatuiului,XIV,E,,,0.2,0.2.3
+145,Lunca Buzaului,XIV,E,,,0.2,0.2.1
+146,Cîmpia Tecuciului de Vest,XIV,E,,4,4.1.,4.1.1
+147,Lunca Bârladului,XIV,E,,4,4.1,4.1.3
+148,Cîmpia Tecuciului de Est,XIV,E,,4,4.1,4.1.2
+149,Câmpia Lozovei,XIV,E,,4,4.2,4.2.2
+150,Cîmpia Cuca,XIV,E,,4,4.2,4.2.1
+151,Culoarul Siretului,XII,A,,5,,
+152,Cîmpia Rîmnicului,XIV,E,,1,1.2,
+153,Dealul  Comanac,IX,C,a,1,,1.0.5
+154,Depresiunea Casinului,IX,C,a,1,1.2,
+155,Glacisul Rîmnicului,XIV,E,,1,1.1,
+156,Colinele Chinejei,XII,C,d,,0.1,
+157,Dealurile  Malusteniului,XII,C,c,,0.2,
+158,Colinele Padureni,XII,C,c,,,0.0.4
+159,Colinele Viisoarei,XII,C,c,,0.1,
+160,Culoarul Prutului,XII,B,,,0.3,
+161,Culoarul Prutului,XII,B,,,0.3,
+162,Colinele Dumestiului,XII,B,,2,2.4,2.4.3
+163,Culoarul  Bahluiului,XII,B,,2,2.4,2.4.4
+164,Depresiunea Parincei,XII,C,b,,0.3,0.3.2
+165,Culmea Cucueti,XII,C,b,,0.3,0.3.1
+166,Culmea Vîrlanesti,XII,C,b,,0.3,0.3.3
+167,Culmea Hutanului,XII,C,b,,0.2,0.2.1
+168,Colinele Similei,XII,C,b,,0.1,
+169,Depresiunea  Negresti,XII,C,a,,,0.0.6
+170,Culmea Crasnei,XII,C,a,,0.2,0.2.3
+171,Podisul Repedea - Zapodeni,XII,C,a,,0.2,0.2.1
+173,Dealurile Cetatuia - Mireni,XII,C,a,,0.2,0.2.2
+174,Podisul Sacovatului,XII,C,a,,0.1,
+175,Dealurile Bourului,XII,C,a,,,0.0.4
+176,Colinele Balausesti,XII,C,a,,,0.0.5
+177,Culoarul Roman - Adjud,IX,C,b,5,,
+178,Culoarul Sucevei,XII,A,,1,,1.0.4
+179,Colinele Sârca,XII,B,,2,2.4,2.4.2
+180,Colinele Gloduri - Coada Stâncii,XII,B,,2,2.4,2.4.1
+181,Colinele  Padureni - Cauesti,XII,B,,2,2.1,
+182,Culoarul Jijiei Inferioare,XII,B,,2,,2.0.3
+183,Culoarul Prutului,XII,B,,,0.3,
+184,Depresiunea  Dorohoiului,XII,B,,1,1.2,1.2.6
+185,Podisul Sitnei,XII,B,,1,1.2,1.2.3
+186,Dealurile Copalaului,XII,B,,1,1.2,1.2.4
+187,Depresiunea Botosaniului,XII,B,,1,1.2,1.2.5
+188,Culmea Vulturului,XII,B,,1,1.2,1.2.2
+189,Dealurile Cozancea,XII,B,,1,1.2,1.2.1
+190,Colinele Volovatului,XII,B,,1,1.1,1.1.1
+191,Culoarul Prutului,XII,B,,,0.3,
+192,Dealurile  Bour - Ibanesti,XII,A,,6,6.1,
+193,Dealurile Hapai,XII,A,,6,,6.0.2
+194,Colinele Bucecea - Vorona,XII,A,,6,6.3,
+195,Colinele Ruginoasa - Strunga,XII,A,,6,,6.0.5
+196,Colinelei Bîrei,XII,A,,6,,6.0.6
+197,Podisul Balcauti,XII,A,,1,,1.0.2
+198,Podisul Siminicei,XII,A,,1,,1.0.3
+199,Depresiunea Radautului,XII,A,,,0.2.,
+200,Depresiunea Iaslovat,XII,A,,,0.3,0.3.5
+201,Podisul Volovatului,XII,A,,,0.3,0.3.1
+202,Podisul Botosanei,XII,A,,,0.3,0.3.2
+203,Depresiunea Solonet,XII,A,,,0.3,0.3.7
+204,Depresiunea Cacica,XII,A,,,0.3,0.3.6
+205,Dealul Poiana Ciungilor,XII,A,,,0.3,0.3.4
+206,Dealurile Ilisesti,XII,A,,,0.3,0.3.3
+207,Podisul Vulturesti,XII,A,,4,4.1,4.1.1
+208,Podisul Plesului,XII,A,,4,4.1,4.1.2
+209,Podisul (Dep.)  Liteni,XII,A,,4,4.4,
+210,Podisul (Dep.)  Liteni,XII,A,,4,4.4,
+211,Podisul Mircestiului,XII,A,,4,,4.0.3
+212,Culoarul Moldovei,IX,C,b,,0.4,
+213,Depresiunea Malini,IX,C,b,3,,3.0.4
+214,Dealul Pleasa,IX,C,b,3,,3.0.3
+215,Dealul Budaru,IX,C,b,3,,3.0.2
+216,Depresiunea Rîsca,IX,C,b,3,,3.0.5
+217,Dealul Plesu,IX,C,b,3,3.1,
+218,Dealul Olaru,IX,C,b,,0.2,0.2.1
+219,Depresiunea Neamtului (Ozanei),IX,C,b,,0.2,
+220,Dealurile Bahnei,IX,C,b,3,3.8,
+221,Depresiune,IX,C,b,3,,
+222,Glacisul Moldoveni,IX,C,b,3,,3.0.10
+223,Depresiunea Budesti,IX,C,b,3,,3.0.9
+224,Dealul Bodesti,IX,C,b,3,3.6,
+225,Dealul Chicerii,IX,C,b,3,3.7,
+226,Depresiunea Cracau - Bistrita,IX,C,b,1,,
+227,Culoarul Bistritei,IX,C,,,,
+228,Depresiunea Cracau - Bistrita,IX,C,b,1,,
+229,Dealul Carunta,IX,C,a,2,2.3,
+230,Depresiunea Trebis,IX,C,a,2,,2.0.5
+231,Dealul Capatîna,IX,C,a,2,2.2,
+232,Depresiunea Tazlaului,IX,C,a,1,1.1,
+233,Dealurile Solontului,IX,C,a,1,,1.0.4
+234,Dealurile Solontului,IX,C,a,1,,1.0.4
+235,Dealurile Berzuntului,IX,C,a,1,,1.0.3
+236,Glacisul Orbeni,IX,C,a,2,2.6,
+237,Dealul Bobeica,IX,C,a,2,,2.0.4
+238,Dealurile Ousorului,IX,B,c,3,3.1,
+239,Dealurile (Piem.) Zabrautului,IX,B,c,3,3.2,
+240,Dealurile Momîla,IX,B,c,3,,3.0.4
+241,Dealurile Ghergheleu,IX,B,c,3,,3.0.7
+242,Depresiunea Soveja,IX,B,c,2,2.10,2.10.2
+243,Depresiunea Racoasa,IX,B,c,3,,3.0.3
+244,Depresiunea Vizantea,IX,B,c,3,,3.0.5
+245,Depresiunea Vidra,IX,B,c,3,,3.0.6
+246,Depresiunea Naruja,IX,B,c,2,2.10,2.10.1
+247,Depresiunea Nereju,IX,B,c,2,,2.0.9
+248,Dealul Raiuti,IX,B,c,2,2.3,
+249,Depresiunea Mera,IX,B,c,2,,2.0.6
+250,Magura Odobesti,IX,B,c,2,2.8,
+251,Dealul Cheia,IX,B,c,2,,2.0.2
+252,Dealurile Gârbovei,IX,B,c,2,2.1,
+253,Culmea Deleanu,IX,B,c,2,2.7,
+254,Culmea Capatînii,IX,B,c,2,,2.0.4
+255,Depresiune,IX,B,c,1,,
+256,Depresiunea Jitia,IX,B,x,1,,1.0.4
+257,Depresiunea Dumitresti,IX,B,c,2,,2.0.5
+258,Culmea Budei,IX,B,c,1,1.3,
+259,Depresiune,IX,B,c,1,,
+260,Bealurile Bisocai,IX,B,c,1,1.1,
+261,Culmea Blajanilor,IX,B,c,1,1.2,
+262,Depresiunea Lopatari,IX,B,b,3,,3.0.7
+263,Dealurile Bocu,IX,B,b,3,,3.0.6
+264,Dealurile Blidiselului,IX,B,b,3,3.1,
+265,Depresiunea Balanesei,IX,B,b,3,,3.0.4
+266,Depresiune,IX,B,b,3,,
+267,Dealurile Dîlmei,IX,B,b,3,3.2,
+269,Depresiunea Saratelului,IX,B,b,3,,3.0.5
+270,Dealurile Pâclelor,IX,B,b,3,3.3,
+271,Depresiune,IX,B,b,3,,
+272,Dealurile Cepturei,IX,B,b,2,2.1,2.1.2
+273,Dealul Ciortea,IX,B,b,2,2.1,2.1.1
+274,Dealul Mare,IX,B,b,2,2.1,2.1.3
+275,Culmea Istrita,IX,B,b,2,2.1,2.1.4
+276,Depresiunea Patîrlagele,IX,B,b,,0.4,0.4.1
+277,Depresiunea Pîrscov,IX,B,b,,0.4,0.4.3
+278,Depresiunea Cislau,IX,B,b,,0.4,0.4.2
+279,Culmea Ciolanu,IX,B,b,2,2.2,
+280,Depresiunea Niscovului,IX,B,b,2,2.3,
+281,Dealurile Cornetului,IX,B,b,1,,1.0.3
+282,Dealurile Lazului,IX,B,b,1,,1.0.1
+283,Dealul Pripor,IX,B,b,1,,1.0.2
+284,Depresiune,IX,B,b,1,,
+285,Depresiune,IX,B,b,1,,
+286,Dealurile Salciei,IX,B,b,1,1.5,
+287,Depresiunea Podeni,IX,B,a,2,2.5,2.5.2
+288,Depresiunea Cricovului Sarat,IX,B,b,1,,1.0.6
+289,Depresiunea Drajna,IX,B,b,1,1.4,
+290,Dealul Bucovelului,IX,B,a,2,2.6,
+291,Magurile Tintei,IX,B,a,2,,2.0.7
+292,Magurile Tintei,IX,B,a,2,,2.0.7
+293,Plaiul Bughei,IX,B,a,2,2.3,2.3.
+294,Plaiul Bughei,IX,B,a,2,2.3,2.3.2
+295,Depresiunea Bertei,IX,B,a,2,2.3,2.3.1
+296,Deal,IX,B,a,2,,
+297,Culoarul  Valenilor,IX,B,a,2,,2.0.4
+298,Depresiunea Podeni,IX,B,a,2,2.5,2.5.2
+299,Dealurile Cosminele,IX,B,a,2,2.2,
+300,Dealurile Cîmpinitei,IX,B,a,2,2.1,2.1.1
+301,Depresiunea Comarnic - Breaza,IX,B,a,2,2.1,2.1.3
+302,Depresiunea Brebu,IX,B,a,2,2.1,2.1.2
+303,Depresiunea Provitei,IX,B,a,1,,1.0.9
+304,Culmea Gurga,IX,B,a,1,,1.0.10
+305,Dealul Sultanu - Teisu,IX,B,a,1,1.6,
+306,Dealul Talei,IX,B,a,1,,1.0.8
+307,Depresiunea Valea Lunga,IX,B,a,1,,1.0.7
+308,Culmea Runcu - Bezdead,IX,B,a,1,1.4,1.4.1
+309,Dealul Fusaru,IX,B,a,1,,1.0.5
+310,Dealul Ocnitei,IX,B,a,1,1.3,
+311,Depresiune,IX,B,a,1,,
+312,Depresiunea Vulcanei,IX,B,a,1,1.2,1.2.2
+313,Plaiul Ciutei,IX,B,a,1,1.2,1.2.3
+314,Dealul Stînei,IX,B,a,1,1.2,1.2.1
+315,Dealurile Barbuletului,IX,B,a,1,1.1,
+316,Culmea Groapa Oii,IX,A,b,,,0.0.10
+317,Depresiunea Cîmpulung,IX,A,b,,0.11,
+318,Dealul Matau,IX,A,b,,,0.0.9
+319,Culmea Pletica,IX,A,b,,0.6,
+320,Culmea Rîusorului,IX,A,b,,,0.0.7
+321,Dealul Ciocanu,IX,A,b,,,0.0.8
+322,Culmea Toaca,IX,A,b,,,0.0.5
+323,Depresiune,IX,A,b,,,
+324,Depresiunea Arefului,IX,A,b,,,0.0.4
+325,Culmea Chiciurii,IX,A,b,,0.3,
+326,Depresiune,IX,A,b,,,
+327,Culmea Tamasului,IX,A,b,,0.2,
+328,Culmea Runcului,IX,A,b,,0.1,
+329,Depresiunea Jiblea,IX,A,a,3,3.3,
+330,Culoarul Oltului,IX,A,b,,0.7,
+331,Dealurile Govorei,IX,A,a,3,3.2,
+332,Dealurile Olanestiului,IX,A,a,3,3.1,
+333,Dealul Govorei,IX,A,a,3,3.2,
+334,Depresiunea Bumbesti - Novaci,IX,A,a,1,1.5,
+335,Depresiunea Polovragi,IX,A,a,2,2.3,2.3.1
+336,Magura Slatioarei,IX,A,a,2,2.2,2.2.1
+337,Dealurile Cernisoarei,IX,A,a,2,2.2,2.2.3
+338,Culmea Mateesti,IX,A,a,2,2.2,2.2.2
+339,Dealul Cîrligei,IX,A,a,2,2.1,2.1.1
+340,Dealurile Sîrbesti,IX,A,a,2,2.1,2.1.2
+341,Dealurile Copacioasei,IX,A,a,1,1.2,1.2.1
+342,Depresiunea Carbunesti (Cîmpul Mare),IX,A,a,1,1.7,
+343,Depresiunea Tîrgu Jiu,IX,A,a,1,1.6,
+344,Culoarul Jiului,IX,A,a,,,
+345,Dealul Sporesti,IX,A,a,1,1.1,1.1.1
+346,Dealul Rasovei,IX,A,a,1,1.1,1.1.2
+347,Dealul Tîrgului,IX,A,a,1,1.1,1.1.4
+348,Dealul Bradiceni,IX,A,a,1,1.1,1.1.3
+349,Depresiunea Tîrgu Jiu,IX,A,a,1,1.6,
+350,Podisul Mehedinti,X,,,,,
+351,Depresiunea Moldova Noua,IV,,e,,0.1,
+352,Depresiunea Liubcova,IV,,e,,,0.0.2
+353,Depresiunea Orsova,IV,,e,,,0.0.3
+354,Culoarul Bistrei,IV,,c,,0.1,
+355,Depresiunea Caransebes (Timisului),IV,,c,2,2.1,
+356,Culoarul Cernei,IV,,c,2,,2.0.3
+357,Depresiunea Mehadica (Domasnea),IV,,c,2,2.2,
+358,Dealurile Tîrovei,IV,,a,,,0.0.4
+359,Culmea Svinecei,IV,,a,1,1.2,
+360,Depresiunea Bozovici (Tara Almajului),IV,,a,,0.4,
+361,Muntii Ravenscai,IV,,a,1,1.1,
+362,Muntele Radimnei,IV,,b,1,1.1,
+363,Podisul Carbunari,IV,,b,1,1.2,
+364,Depresiunea Carasului (C. Carasului),VIII,,b,4,,
+365,Depresiunea Garîna,IV,,a,2,2.2,2.2.1
+366,Masivul Neman,IV,,a,2,2.2,2.2.2
+367,Muntii Piatra Goznei,IV,,a,2,2.1,
+368,Muntii Leordis,IV,,b,2,,2.0.1
+369,Muntii  Iabalcei,IV,,b,2,,2.0.2
+370,Culmea Certej - Puscasul Mare,IV,,b,2,,2.0.4
+371,Depresiunea Aninei,IV,,b,2,,2.0.5
+372,Muntii Gîrlistei,IV,,b,2,,2.0.3
+373,Depresiunea Lupac - Carasova,IV,,b,,0.4,0.4.4
+374,Muntii Arenisului,IV,,b,3,,3.0.2
+375,Dealul Bucitu,IV,,b,,0.4,0.4.3
+376,Depresiunea Resita - Cîlnic,IV,,b,,0.4,0.4.2
+377,Dealul Ezerisului,IV,,b,,0.4,0.4.1
+378,Depresiunea Ezeris,VIII,,b,1,,1.0.5
+379,Dealul Zorlentului,VIII,,b,1,,1.0.3
+380,Depresiunea Brebu,VIII,,b,1,,1.0.4
+381,Dealurile  Buziasului,VIII,,b,1,1.2,
+382,Dealurile Poienii,VIII,,b,1,1.1,
+383,Dealul Arenisului,VIII,,b,2,,2.0.2
+384,Dealurile Tirolului,VIII,,b,2,2.1,
+385,Dealurile Nerei,VIII,,b,3,,3.0.3
+386,Dealurile Ciclovei,VIII,,b,3,,3.0.2
+387,Dealurile Ciudanovitei,VIII,,b,3,,3.0.1
+388,Câmpia Moravitei,XIII,C,,5,,5.0.4
+389,Câmpia Gataiei,XIII,C,,5,5.3,
+390,Câmpia Sinersigului,XIII,C,,4,4.1,
+391,Câmpia Buziasului,XIII,C,,5,5.1,
+392,Câmpia Tormacului,XIII,C,,5,5.2,
+393,Câmpia Banlocului,XIII,C,,2,2.3,
+394,Câmpia Begai (Begheiului),XIII,C,,4,,4.0.3
+395,Câmpia Timisanei,XIII,C,,4,,4.0.2
+396,Câmpia Timisoarei,XIII,C,,2,2.2,
+397,Câmpia Jimboliei,XIII,C,,1,1.4,
+398,Câmpia Beregsaului,XIII,C,,2,2.1,
+399,Câmpia Vingai,XIII,C,,3,,
+400,Câmpia Arancai,XIII,C,,1,1.3,
+401,Câmpia Nadlacului,XIII,C,,1,1.2,
+402,Câmpia Aradului,XIII,C,,1,1.1,
+403,Câmpia Cermeiului,XIII,B,,1,1.3,
+404,Câmpia Miersigului,XIII,B,,1,1.2,
+405,Câmpia Joasa a Crisurilor,XIII,B,,2,,
+406,Câmpia Barcaului,XIII,B,,1,1.1,
+407,Cîmpia Tasnadului,XIII,A,,1,1.2,
+408,Câmpia Buduslaului,XIII,A,,1,1.3,
+409,Câmpia Piscoltului,XIII,A,,4,4.2,
+410,Câmpia Valea Lui Mihai,XIII,A,,4,4.1,
+411,Câmpia Ierului,XIII,A,,3,,
+412,Câmpia Ardudului,XIII,A,,1,1.1,
+413,Câmpia Joasa a Somesului,XIII,A,,2,,
+414,Muntii Oasului,I,A,a,,0.1,
+415,Muntii Oasului,I,A,a,,0.1,
+416,Depresiunea Oas (Tara Oasului),I,A,a,,0.2,
+417,Masivul Rodna (Muntii Rodnei),I,A,b,2,,
+418,Depresiune,I,A,a,,,
+419,Depresiune,I,A,a,,,
+420,Masivul Ignis,I,A,a,3,,
+421,Muntii Oasului,I,A,a,,0.1,
+422,Piemontul Maramuresului,I,A,d,,0.2,
+423,Culoarul Izei,I,A,d,,,0.0.3
+424,Dealurile  Maramuresului (Culmea Viseului),I,A,d,,0.1,
+425,Culoarul Viseului,I,A,d,,0.4,
+426,Depresiune,I,A,b,1,,
+427,Culmea Pop Ivan,I,A,b,1,1.1,1.1.1
+428,Munti Farcau,I,A,b,1,1.1,1.1.2
+429,Culmea Pietrosul Maramuresului (Bardaului),I,A,b,1,1.2,
+430,Culmea Toroioaga,I,A,b,1,1.3,1.3.1
+431,Culmea Cearcanu-Zimbroslaviile,I,A,b,1,1.3,1.3.2
+432,Obcina Tapului,I,A,b,1,1.3,1.3.3
+433,Culoarul Moldova - Sadova,I,A,c,1,,1.0.4
+434,Obcina Curmaturii,I,A,c,3,3.1,3.1.1
+435,Obcina Feredeului - Cl. Vejului,I,A,c,2,,
+436,Culmea Tatarcii,I,A,c,1,1.1,
+437,Depresiunea Lucina-Fundul Moldovei,I,A,c,1,,1.0.3
+438,Depresiunea Cîmpulung Moldovenesc,I,A,c,1,,1.0.5
+439,Depresiunea Vama,I,A,c,3,3.1,3.1.3
+440,Depresiunea Moldovitei,I,A,c,3,3.1,3.1.2
+441,Obcina Sacalesti - Cornu,I,A,c,,0.4,0.4.3
+442,Obcinele Bucovinesti,I,A,c,,0.4,0.4.1
+443,Obcina Lupcinei,I,A,c,,0.4,0.4.2
+444,Obcina Putnei,I,A,c,3,,3.0.3
+445,Obcina Humorului,I,A,c,3,,3.0.4
+446,Depresiunea Humor,I,A,c,3,,3.0.5
+447,Obcina Scorusetului,I,A,c,3,3.2,
+448,Depresiune,I,A,c,3,,
+449,Muntii Suhei,I,B,c,3,3.1,
+450,Muntii Sabasei,I,B,c,3,3.2,
+451,Depresiune,I,B,c,,,
+452,Masivul Giumalau,I,B,c,1,1.1,
+453,Masivul Rarau,I,B,c,1,1.2,
+454,Masivul Grintiesul Mare,I,B,c,2,2.5,
+455,Masivul  Budacu,I,B,c,2,2.4,
+456,Masivul Bîrnaru,I,B,c,2,2.2,
+457,Masivul Pietrosu,I,B,c,2,2.1,
+458,Masivul  Omu,I,B,c,2,,2.0.7
+459,Masivul Calimanel,I,B,c,2,,2.0.6
+460,Masivul Grintiesul Mic,I,B,c,2,2.3,
+461,Muntii Suhard,I,A,b,3,,
+462,Depresiune,I,A,b,2,,
+463,Muntii Bârgaului,I,A,e,1,,
+464,Depresiunea Dorna Candreni,I,A,e,,2.3,
+465,Depresiunea Bicazului,I,B,d,1,,1.0.2
+466,Muntii  Corbului,I,B,d,3,3.1,
+467,Depresiunea Dragoiasa (Glodului),I,B,c,2,2.8,2.8.1
+468,Depresiunea Bilbor,I,B,c,2,2.8,2.8.2
+469,Muntele Mezovesti,I,B,c,2,2.8,2.8.4
+470,Depresiunea Borsec,I,B,c,2,2.8,2.8.3
+471,Depresiunea Tulghes,I,B,c,2,2.8,2.8.5
+472,Masivul Ceahlau,I,B,d,1,1.1,
+473,Muntele Prisaca,I,B,d,3,3.2,
+474,Muntele Negru,I,B,d,3,3.3,
+475,Muntii Licas,I,B,d,2,2.1,
+476,Culmea Berzunt,I,B,e,3,0.3,
+477,Muntii Gosmanu,I,B,e,2,,
+478,Muntii Tarcaului,I,B,e,1,,
+479,Depresiunea Lunca,I,B,e,4,,4.0.1
+480,Depresiunea Darmanesti,I,B,e,4,4.4,
+481,Culmea Viscolului,I,B,e,5,5.1,
+482,Obcina Rotunda,I,B,e,5,,5.0.2
+483,Culmea Carunta,I,B,e,5,5.0.3,
+484,Culmea Gura Muntelui,I,B,e,5,,5.0.4
+485,Depresiunea Plaiesi,I,B,e,5,,5.0.6
+486,Culmea Gruiul Mare,I,B,e,5,,5.0.5
+487,Culmea Nemira,I,B,e,6,6.2,
+488,Podisul Bobisca,I,B,e,6,6.1,
+489,Magura Casinului,II,,a,,0.5,
+490,Muntele Zboinea Verde (Zboina Neagra),II,,a,,0.6,
+491,Muntele Coza,II,,a,2,,
+492,Muntele Zboina Frumoasa,II,,a,3,,
+493,Culmea Lacauti,II,,a,1,,
+494,Muntele Furu,II,,a,,0.7,
+495,Depresiune,II,,b,,,
+496,Culmea Ivanetu,II,,b,3,,0.4
+497,Muntele Penteleu,II,,b,1,,
+498,Muntele Malîia,II,,b,3,3.2,
+499,Muntii  Podu Calului,II,,b,2,,
+500,Depresiunea Comandau,II,,b,5,,5.0.2
+501,Clabucetele Întorsurii Buzaului,II,,b,5,,
+502,Depresiunea Întorsurii Buzaului,II,,b,5,,5.0.1
+503,Culmea Monteoru,II,,b,3,3.3,
+504,Culmea  Tatarului,II,,b,3,3.1,
+505,Masivul Ciucas,II,,c,1,,
+506,Muntele Fâncel,I,B,a,2,2.1,
+507,Muntele Saca,I,B,a,2,2.2,
+508,Muntele Sumuleu,I,B,a,2,2.3,
+509,Depresiune,I,B,a,2,,
+510,Muntele Madaras,I,B,a,3,3.1,
+511,Muntii Vîrghisului (Persanii de Nord),I,B,f,1,1.1,
+512,Muntele Cucu,I,B,a,3,3.2,
+513,Depresiunea Ghimes - Palanca,I,B,e,4,,4.0.2
+514,Plaiurile Slanicului,I,B,e,6,6.3,
+515,Muntii  Bodoc,I,B,f,3,,
+516,Depresiunea Râul Negru,I,B,g,3,,
+517,Depresiunea Prejmer,I,B,g,2,,
+518,Depresiunea Bixad,I,B,f,3,,3.0.1
+519,Muntele Ciomadu (Puciosu),I,B,a,3,,3.0.3
+520,Muntele Frumos,I,B,d,2,,2.0.4
+521,Culmea  Racului,I,B,d,2,,2.0.3
+522,Masivul Hasmas,I,B,d,2,2.2,
+523,Bistrita Bargaului,I,A,e,1,,
+524,Depresiune,I,A,e,,,
+525,Depresiunea Ciucului de Jos (Tusnad),I,B,b,2,2.2,
+526,Depresiunea Gheorgheni (Giurgeului),I,B,b,1,,
+527,Depresiunea Sîndominic,I,B,b,2,2.1,2.1.1
+528,Depresiunea Baraolt,I,B,f,2,2.2,
+529,Depresiunea Aita,I,B,f,2,,2.0.1
+530,Muntele Baraolt,I,B,f,2,,
+531,Depresiunea Sinca,I,B,f,1,,1.0.4
+532,Muntii Codlei (Persanii de Sud),I,B,f,1,1.3,
+533,Muntii Cetatii (Persanii de Mijloc),I,B,f,1,1.2,
+534,Depresiunea Bîrsei (Tara Bîrsei),I,B,g,1,,
+535,Muntii Tibles,I,A,b,2,,
+536,Masivul Gutâi,I,A,a,0,0.4,
+537,Depresiune,I,A,a,,,
+538,Depresiune,I,A,a,,,
+539,Depresiune,I,A,a,,,
+540,Muntii Baiu (Gîrbovei),II,,c,3,,
+541,Masivul Piatra Mare,II,,d,4,,4.0.3
+542,Depresiunea Timisului,II,,d,4,,4.0.4
+543,Masivul Postavarul,II,,d,4,,4.0.2
+544,Clabucetele Predealului,II,,d,4,,4.0.1
+545,Muntele Gurguiatu,II,,d,1,,1.0.2
+546,Masivul Bucegi,II,,d,1,1.1,
+547,Muntii Leaota,II,,d,2,,
+548,Culoarul Rucar - Bran,II,,d,3,,
+549,Masivul Iezer (Iezer-Papusa),III,,a,2,,
+550,Muntii Taga,III,,a,,0.4,
+551,Masivul Cozia,III,,a,6,,6.0.1
+552,Masivul Fagaras,III,,a,1,,
+553,Culoarul Central Fagarasan - Muntii Lovistei,III,,a,,0.3,
+554,Muntele Ghitu,III,,a,6,,6.0.4
+555,Depr. Poiana,III,,a,6,,6.0.2
+556,Depresiunea  Lovistei (Titesti),III,,a,7,7.1,
+557,Masivul Buila (Vînturarita - Buila),III,,b,2,,2.0.3
+558,Muntii Sturului,III,,b,2,2.2,
+559,Muntii Cindrel,III,,b,5,,
+560,Muntii Latoritei,III,,b,,0.3,
+561,Muntii Lotrului,III,,b,4,,
+562,Culmea Strungari,III,,b,6,,6.0.3
+563,Culmea lui Patru,III,,b,6,6.1,
+564,Masivul Parîng,III,,b,1,,
+565,Masivul Oslea,III,,c,6,,6.0.1
+566,Culmea Vîlcan,III,,c,6,6.2,
+567,Dealurile Cugirului,III,,d,3,3.1,
+568,Podisul Dacic,III,,b,6,6.2,
+569,Depresiunea Petrosani,III,,c,7,,
+570,Muntii Tulisa,III,,c,1,,1.0.2
+571,Masivul Piule,III,,c,1,,1.0.3
+572,Muntele Piatra Closanilor,III,,c,5,,5.0.3
+573,Culmea Cernei,III,,c,5,5.2,
+574,Masivele Domogled - Vîrful lui Stan,III,,c,5,5.1,
+575,Depresiunea Cornereva,III,,c,4,,
+576,Masivul Retezat,III,,c,2,,
+577,Muntii Cornerevei (Culmea Cernîi Vîr),III,,c,4,,4.0.2
+578,Culmea Vlascu,III,,c,4,4.1,
+579,Muntele Mic,III,,c,3,3.2,
+580,Masivul Tarcu,III,,c,3,3.1,
+581,Culoarul Vintului,III,,d,3,3.2,
+582,Muntii Poiana Ruscai,IV,,d,,,
+583,Depresiunea Hategului (Tara Hategului),III,,d,1,,
+584,Dealul Silvasului,III,,d,2,2.1,
+585,Depresiunea Cerna - Strei (Simeriei),III,,d,2,2.2,
+586,Culoarul Devei,III,,d,2,2.3,
+587,Dealull Lapugiului (Holdea),VIII,,a,,0.3,
+588,Dealul Bulzei,VIII,,a,,0.2,
+589,Dealurile Lugojului,VIII,,a,,0.4,
+590,Depresiunea Fagetului,VIII,,a,,0.5,
+591,Depresiunea Conop,VIII,,a,6,,6.0.1
+592,Depresiunea Varadia,VIII,,a,6,,6.0.2
+593,Depresiunea Copalnicului,VII,,,,,
+594,Muntii Plopis (Muntele Ses),V,,c,2,,
+595,Muntii Meses,V,,c,1,,
+596,Depresiune,V,,b,,,
+597,Muntii Ampoiului,V,,b,2,2.4,
+598,Depresiune,V,,b,,,
+599,Depresiunea Zlatna,V,,b,2,2.6,2.6.1
+600,Depresiunea Ocolis - Posaga,V,,a,3,3.4,3.4.1
+601,Depresiunea Trascaului,V,,b,3,,3.0.4
+602,Coltii Trascaului,V,,b,3,,3.0.2
+603,Culmea Hajdate,V,,b,3,,3.0.3
+604,Culmea  Bedeleului,V,,b,3,3.1,
+605,Depresiunea Almas - Balsa,V,,b,2,2.3,2.3.2
+606,Depresiune,V,,b,,,
+607,Masivul Highis,V,,b,1,1.1,
+608,Masivul Drocea,V,,b,1,1.2,
+609,Muntii Mesesului,V,,e,,0.3,
+610,Muntii Husului,V,,b,2,2.1,
+611,Muntii Detunatelor,V,,b,2,2.5,
+612,Muntii Magureaua,V,,b,2,2.2,
+613,Depresiunea Baitei,V,,b,2,2.3,2.3.1
+614,Muntii Sacarîmbului,V,,b,2,2.3,
+615,Depresiunea Halmagiu,V,,a,4,4.2,
+616,Depresiunea Brad,V,,a,4,4.1,
+617,Muntele Gaina,V,,a,3,3.3,
+618,Depresiunea Lupsei,V,,a,3,3.4,3.4.3
+619,Masivul Bihor (Culmea Bihariei),V,,a,3,3.2,
+620,Podisul Padesului,V,,a,3,3.1,
+621,Muntele Mare,V,,a,2,2.2,
+622,Masivul Gilau,V,,a,2,2.1,
+623,Muntii Iadei,V,,a,1,1.1,
+624,Culmea Hentului,V,,a,1,1.3,
+625,Muntii Padurea Craiului,V,,d,,,
+626,Depresiunea Tauti,VII,,e,3,,3.0.3
+627,Dealul Cuedului,VII,,e,3,3.1,
+628,Dealul Madrigesti,VII,,e,2,,2.0.3
+629,Depresiunea Plescuta,V,,e,,,0.3.1
+630,Depresiunea Gurahont,VII,,e,2,2.2,
+631,Depresiunea Sebisului,VII,,e,2,2.1,
+632,Muntii Misesului,V,,e,,0.3,
+633,Masivul Moma,V,,e,,0.2,
+634,Muntii Codru,V,,e,,0.1,
+635,Dealurile Momei,VII,,e,1,1.3,
+636,Depresiune,VII,,e,1,,
+637,Dealurile Teuzului,VII,,e,1,1.2,
+638,Dealurile Marausului,VII,,e,1,1.1,
+639,Dealurile Nucetului,VII,,d,2,,2.0.3
+640,Dealurile Buduresei,VII,,d,2,2.2,
+641,Dealurile Tarcaitei,VII,,d,2,,2.0.4
+642,Depresiunea Beiusului,VII,,d,2,2.1,
+643,Depresiunea Holodului,VII,,d,1,1.3,1.3.1
+644,Dealul Rabagani,VII,,d,1,1.3,1.3.2
+645,Dealurile Dobrestiului,VII,,d,1,1.3,
+646,Dealurile Hidiselului,VII,,d,1,1.2,
+647,Dealurile Tasadului,VII,,d,1,1.1,
+648,Podisul Besnei,VII,,c,2,,2.0.3
+649,Depresiunea Vad - Oradea,VII,,c,2,2.1,
+650,Dealul Fertisagului,VII,,c,1,1.2,
+651,Dealul Lugasului,VII,,c,1,1.3,
+652,Depresiunea Zalaului,VII,,b,3,,3.0.6
+653,Depresiunea Simleului,VII,,b,3,3.5,
+654,Culmea Simleului,VII,,b,2,2.2,
+655,Colinele Mesesului,VII,,b,3,,3.0.1
+656,Piemontul Simleului,VII,,b,3,3.2,
+657,Depresiunea Barcaului,VII,,b,3,3.4,
+658,Colinele Halmasdului,VII,,b,3,,3.0.3
+659,Dealurile Barcaului,VII,,c,1,1.1,
+660,Depresiune,VII,,b,2,,
+661,Dealurile Viisoarei,VII,,b,2,2.4,
+662,Dealurile Vulturului,VII,,b,2,2.3,
+663,Dealul Coseiului,VII,,b,2,2.1,
+664,Depresiune,VII,,b,2,,
+665,Dealurile Salajului,VII,,b,1,1.4,
+666,Culmea Codrului,VII,,b,1,1.1,
+667,Colinele  Codrului,VII,,b,1,1.2,
+668,Dealurile Asuajului,VII,,b,1,1.3,
+669,Dealul Prisaca (Ticau),VII,,a,2,,2.0.4
+670,Dealul  Bîrsaului,VII,,a,2,2.2,
+671,Depresiune,VII,,a,2,,
+672,Masivul Preluca,VII,,a,2,2.3,
+673,Depresiunea Baia Mare,VII,,a,1,,
+674,Dealurile Ciceului,VI,A,,4,,
+675,Muscelele Nasaudului,VI,D,,2,,
+676,Muscelele Nasaudului,VI,D,,2,,
+677,Culoarele Someselor Mic si Mare,VI,B,,,0.3,
+678,Dealul  Sicului,VI,B,,1,1.1,
+679,Culmea  Brezei (Breaza),VI,D,,1,1.2,
+680,Depresiunea Lapusului,VI,D,,1,1.1,
+681,Podisul Boiului,VI,A,,,0.2,
+682,Culmea  Prisnel,VI,A,,,0.1,
+683,Dealurile Dejului,VI,A,,5,5.2,
+684,Dealul Capusului,VI,A,,8,,8.0.3
+685,Podisul Paniceni,VI,A,,8,,8.0.2
+686,Depresiune,VI,A,,5,,
+687,Dealurile Gîrboului,VI,A,,5,5.1,
+688,Depresiunea Jibou (Guruslau),VI,A,,,,0.0.3
+689,Depresiunea Huedin,VI,A,,8,8.1,
+690,Depresiunea Almas - Agrij,VI,A,,6,,
+691,Culoarul Gilau - Cluj,VI,A,,9,,9.0.5
+692,Culoarul Somesului,VI,A,,,0.10,
+693,Dealurile Lechintei,VI,B,,1,1.3,
+694,Colinele Comlodului,VI,B,,2,2.2,
+695,Colinele Madarasului,VI,B,,2,2.3,
+696,Dealul Feleac,VI,A,,9,9.1,
+697,Depresiunea Iarei,VI,A,,9,,9.0.4
+698,Dealul Agrisului,VI,A,,9,,9.0.3
+699,Depresiunea Vlaha - Hajdate,VI,A,,9,9.2,
+700,Colinele Ludusului,VI,B,,2,2.1,
+701,Dealul Jimborului,VI,B,,1,1.2,
+702,Depresiune,VI,D,,3,,
+703,Muntii Calimani,I,B,a,1,,
+704,Dealurile Muresului,VI,D,,4,,
+705,Culoarul Muresului,VI,B,,0.4,,
+706,Dealurile Muresului,VI,D,,4,,
+707,Subcarpatii (Dl.) Tîrnavelor,VI,D,,5,,
+708,Depresiunea Sovata (Sovata - Praid),VI,D,,5,5.1,
+709,Subcarpatii (Dl.) Tîrnavelor,VI,D,,5,,
+710,Dealurile Nirajului,VI,C,,1,1.3,
+711,Podisul Tîrnaveni,VI,C,,1,1.2,
+712,Podisul Lopadei,VI,C,,1,,1.0.1
+713,Podisul Blajului,VI,C,,1,1.5,
+714,Podisul Dumbraveni,VI,C,,1,1.6,
+715,Depresiunea Cîmpia Turzii,VI,C,,8,8.2,
+716,Dealul Bilag,VI,C,,8,,8.0.4
+717,Dealurile Aiudului,VI,C,,8,8.1,
+718,Culoarul Tîrnavei Mari,VI,C,,1,1.7,
+719,Culoarul  Aiudului,VI,C,,8,8.3,
+720,Depresiune,VI,D,,6,,
+721,Depresiune,VI,D,,6,,
+722,Subcarpatii Homoroadelor,VI,D,,6,,
+723,Depresiune,VI,C,,2,,
+724,Dealurile Gîrbovei,VI,C,,4,,4.0.5
+725,Depresiunea Apoldului (Secasului  Mare),VI,C,,4,,4.0.4
+726,Depresiunea Salistei,VI,C,,,,0.0.7
+727,Depresiunea Sibiului,VI,C,,,0.6,
+728,Depresiunea Secasului Mic,VI,C,,4,,4.0.3
+729,Podisul Intersecase,VI,C,,4,4.2,
+730,Podisul Cergaului,VI,C,,4,,4.0.1
+731,Podisul Amnas,VI,C,,,0.3,0.3.2
+732,Culoarul Visei,VI,C,,,0.3,0.3.1
+733,Podisul Vurparului,VI,C,,2,,2.0.1
+734,Dealurile (Podisul ) Cincului,VI,C,,2,,2.0.6
+735,Culmea Fagetului,VI,C,,2,,2.0.7
+736,Podisul Ticusului,VI,C,,2,,2.0.4
+737,Podisul Mediasului,VI,C,,2,2.2,
+738,Depresiune,VI,C,,2,,
+739,Podisul Rotbavului,VI,C,,2,,2.0.5
+740,Depresiunea Sarul - Dornei,I,A,e,,2.2,
+741,Depresiunea Brusturoasa (Agas),I,B,e,4,,4.0.3
+742,Depresiunea Salciua,V,,a,3,3.4,3.4.2
+743,Depresiunea Cîmpeni,V,,a,3,3.4,3.4.4
+744,Depresiunea Albac,V,,a,3,3.4,3.4.5
+745,Depresiunea Abrud,V,,a,3,3.4,3.4.6
+746,Depresiunea Metes,V,,b,2,2.6,2.6.2
+747,Depresiunea Borod,VII,,c,2,,2.0.2
+748,Dealurile  Ciocadiei,IX,A,a,1,1.2,1.2.2
+749,Depresiunea Hurez,IX,A,a,2,2.3,2.3.2
+750,Dealul Negru,XI,,,6,,6.0.1
+751,Culmea Dorosan,XII,C,b,,0.2,0.2.2
+752,Glacisul Pietroasele,XIV,D,,,0.2,0.2.2
+753,Lunca Salciei,XIV,F,a,,0.1,
+754,Balta Borcei,XIV,F,b,1,,
+755,Balta Isaccei,XIV,F,b,,0.3,
+756,Colinele Bestepe,XV,A,,4,,4.0.2
+757,Colinele Murighiol (Dunavat),XV,A,,4,,4.0.3
+758,Dealul Pietrosu (Dl. Agighiol; Ortabair),XV,A,,4,,4.0.4
+759,Glacisul Nufarului,XV,A,,,0.6,0.6.1
+760,Glacisul Isaccei,XV,A,,,0.6,0.6.3
+761,Glacisul Jijilei,XV,A,,,0.6,0.6.4
+762,Depresiunea Slavelor,XV,A,,7,,7.0.6
+763,Lacul Golovita,XVI,,b,,0.2,
+764,Lacul Zmeica,XVI,,b,,,0.0.3
+765,Lacul Sinoe,XVI,,b,,0.4,
+766,Depresiune,VII,,c,1,,
+767,Depresiune,II,,d,1,1.1,
+768,Masivul  Piatra Craiului,III,,a,,0.5,
+769,Muntii Capatanii,III,,b,,0.3,
+770,Depresiunea Brezoi,III,,a,7,7.0.2,
+771,Muntela Poiana Spinului,III,,a,6,,6.0.2
+772,depresiune,III,,a,6,,6.0.2
+773,Culmea Cheantului,III,,a,6,,6.0.2
+774,Muntele Frunti (Munticelu),III,,a,6,,6.0.3
+775,Masivul Godeanu,III,,c,2,,
+776,Depresiunea Rusca,III,,c,4,,
+777,Dealurile Jiului,XI,,,1,1.3,
+778,Depresiunea Ciolanei,IX,A,a,1,1.3,1.3.1
+779,Depresiunea Prigoriei,IX,A,a,2,2.1,2.1.3
+780,Depresiunea Sinesti,IX,A,a,2,2.2,2.2.4
+781,Depresiunea Babeni,IX,A,a,3,,3.0.4
+782,Depresiune,IX,A,b,,,
+783,Depresiune,IX,A,b,,,
+784,Depresiune,IX,A,b,,,
+785,Depresiune,IX,A,b,,,
+786,Depresiunea Mislea,IX,B,a,2,2.5,2.5.1
+787,Depresiune,IX,B,a,1,,
+788,Depresiunea Bezdead,IX,B,a,1,1.4,1.4.2
+789,Muntii Bretcului,I,B,g,3,,
+790,Depresiunea Vladeni,I,B,,,,
+791,Depresiunea Fagarasului,VI,C,,5,,
+792,Depresiunea Ilia,VIII,,a,6,,6.0.3
+793,Depresiunea Ciceu,I,B,b,2.1,2.1.2,
+794,Depresiune,I,B,d,,,
+795,Depresiunea  Hârlau,XII,B,,2,2.4,2.4.5
+796,Depresiunea Cîmpulung Moldovenesc,I,A,c,1,,1.0.5
+797,Depresiune,I,B,c,,,
+798,Depresiunea Vatra Dornei,I,A,e,,2.1,
+799,Depresiunea Bicazului,I,B,d,1,,1.0.2
+800,Muntii Neamtului,I,B,c,3,3.3,
+801,Depresiune,I,A,b,1,1.1,1.1.1
+802,Culoarul  Valenilor,IX,B,a,2,,2.0.4
+803,Muntii Grohotisu,II,,c,2,,
+804,Culoarul Tazlaului,IX,C,a,,,
+805,Chicera Mare,IX,C,a,2,2.1,
+806,Deal,IX,C,b,3,,
+807,Campia Siretului,XIV,,,,,
+808,Subcarpatii (Dl.) Tarnavelor,VI,C,,1,1.7,
+809,Culoarul Târnavei Mici,VI,C,,1,1.4,
+810,Culoarul Târnavei Mici,VI,C,,1,1.4,
+811,Dealurile Bistritei,VI,D,,3,,
+812,D. Clujului,VI,A,,,,
+813,Depresiune,I,A,a,,,
+814,Depresiune,I,A,a,,,
+815,Muntii Lapusului,I,A,a,5,,
+816,Depresiune,VII,,b,1,,
+817,Depresiune,VII,,c,1,,
+818,Dealurile Agrijului,VII,B,e,3,,
+819,Podisul  Mangaliei,XV,C,,,0.4,
+820,Culoarul Trotusului,IX,C,a,,,
